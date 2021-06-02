@@ -345,27 +345,25 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-{% markdown %}
-## TL;DR
-Next to the Zoom video conferencing client, you need the following:
-- Python &ge;3.8
-- Jupyter Lab
-- Git
-- Bash or equivalent shell
-- Clone [github.com/escience-academy/parallel-python-workshop](https://github.com/escience-academy/parallel-python-workshop) and run the unit tests to see if your environment is up-to-date.
-
-Run the following if you use `conda`:
-
-``` {.bash}
-git clone --recurse-submodules https://github.com/escience-academy/parallel-python-workshop
-cd parallel-python-workshop
-conda env create -f environment.yml
-conda activate parallel-python
-pytest
- ```
-
-The tests should run without error. If you managed to install everything but somehow the unit tests fail, please contact us, either through an issue on Github or a mail to [training@esciencecenter.nl](mailto:training@esciencecenter.nl).
-{% endmarkdown %}
+> ## TL;DR
+> Next to the Zoom video conferencing client, you need the following:
+> - Python &ge;3.8
+> - Jupyter Lab
+> - Git
+> - Bash or equivalent shell
+> - Clone [github.com/escience-academy/parallel-python-workshop](https://github.com/escience-academy/parallel-python-workshop) and run the unit tests to see if your environment is up-to-date.
+>
+> Run the following if you use `conda`:
+>
+> ``` {.bash}
+> git clone --recurse-submodules https://github.com/escience-academy/parallel-python-workshop
+> cd parallel-python-workshop
+> conda env create -f environment.yml
+> conda activate parallel-python
+> pytest
+> ```
+>
+> The tests should run without error. If you managed to install everything but somehow the unit tests fail, please contact us, either through an issue on Github or a mail to [training@esciencecenter.nl](mailto:training@esciencecenter.nl).
 
 {% comment %}
 For online workshops, the section below provides:
