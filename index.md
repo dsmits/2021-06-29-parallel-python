@@ -345,6 +345,7 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+{% markdown %}
 ## TL;DR
 Next to the Zoom video conferencing client, you need the following:
 - Python &ge;3.8
@@ -364,6 +365,7 @@ pytest
  ```
 
 The tests should run without error. If you managed to install everything but somehow the unit tests fail, please contact us, either through an issue on Github or a mail to [training@esciencecenter.nl](mailto:training@esciencecenter.nl).
+{% endmarkdown %}
 
 {% comment %}
 For online workshops, the section below provides:
@@ -373,7 +375,7 @@ For online workshops, the section below provides:
 
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
-to include the relevant installation instrucctions.
+to include the relevant installation instructions.
 {% endcomment %}
 {% if online != "false" %}
 {% include install_instructions/videoconferencing.html %}
